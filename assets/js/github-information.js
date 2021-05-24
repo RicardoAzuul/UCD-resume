@@ -11,6 +11,9 @@ function userInformationHTML(user) {
           <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
         </a>
       </div>
+      <p>
+        Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}
+      </p>
     </div>
   `
 }
