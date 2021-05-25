@@ -36,7 +36,7 @@ function repoInformationHTML(repos) {
     <p>
       <strong>Repo List:</strong>
     </p>
-    <u>
+    <ul>
       ${listItemsHTML.join("\n")}
     </ul>
   </div>
